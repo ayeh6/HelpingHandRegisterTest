@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register_helper_activity">
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="65dp"
+        android:text="register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordInput"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/hoursMonthInput"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <EditText
+        android:id="@+id/fullnameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="fullname"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/usernameInput"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <EditText
+        android:id="@+id/genderInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="gender"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/ageInput"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="age"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/fullnameInput"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <EditText
+        android:id="@+id/hoursMonthInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="hours/month"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/loadInput"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <EditText
+        android:id="@+id/cityInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="city"
+        android:inputType="textCapSentences"
+        app:layout_constraintTop_toBottomOf="@+id/genderInput"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <EditText
+        android:id="@+id/loadInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="load"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/cityInput"
+        tools:layout_editor_absoluteX="99dp" />
+
+</android.support.constraint.ConstraintLayout>
